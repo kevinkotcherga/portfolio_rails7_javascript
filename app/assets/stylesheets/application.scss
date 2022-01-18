@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #bloc_page, .container {
@@ -137,7 +137,7 @@ section {
     .content {
       position: relative;
       transform: translateX(0px);
-      max-width: 100%;
+      max-width: 85%;
       padding: 20px;
       margin-bottom: 200px;
       h2 {
@@ -161,7 +161,7 @@ section {
   header {
     flex-direction: column;
     width: 100%;
-    top: -60px;
+    top: -72px;
     right: 0;
     left: 0;
 
@@ -336,13 +336,13 @@ section {
   // ALL MOVING IMAGES
 
   .imgDoodle img {
-    top: 0px;
-    left: -220px;
+    top: 383px;
+    left: -94px;
     }
 
   .imgDoodle2 img {
-    top: 1000px;
-    right: -90px;
+    top: 479px;
+    right: -30px;
     }
 
   .imgDoodle3 img {
