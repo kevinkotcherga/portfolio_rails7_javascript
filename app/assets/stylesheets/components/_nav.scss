@@ -5,6 +5,12 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  li.active a {
+    color: var(--color-nav);
+  }
+  li:hover a {
+    color: var(--color-nav);
+  }
   li {
     margin: 0px 3px;
     border-radius: 12px;
@@ -13,12 +19,7 @@
       background: var(--background);
       box-shadow: 0 4px 7px rgba(0,0,0,0.1);
       }
-    a {
-    .active, :hover {
-      color: var(--color-nav);
-      }
     }
-  }
   a {
     font-size: 1.1rem;
     text-decoration: none;
