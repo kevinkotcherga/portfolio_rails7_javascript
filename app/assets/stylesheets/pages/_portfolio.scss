@@ -17,7 +17,7 @@
   .card__portfolio {
     position: relative;
     width: 130px;
-    height: 150px;
+    height: 160px;
     margin: 30px;
     box-shadow: var(--box-shadow2);
     border-radius: 15px;
@@ -30,7 +30,7 @@
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
     .content-card__portfolio {
-      padding: 20px;
+      padding: 0px;
       text-align: center;
       h2 {
         position: absolute;
