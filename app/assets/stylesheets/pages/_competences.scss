@@ -6,10 +6,16 @@
   margin: 500px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
 
   // CONTAINER WITH LOGOS
 
