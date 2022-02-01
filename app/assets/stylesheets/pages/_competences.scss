@@ -22,6 +22,7 @@
   .section-competences__logos {
     fill: var(--fill);
     width: 90px;
+    height: 90px;
     margin: 0;
     padding: 0;
   }
@@ -29,7 +30,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-items: center;
     margin-top: 20px;
+    text-align : center;
   }
 }
 
