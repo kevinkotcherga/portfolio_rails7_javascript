@@ -33,24 +33,27 @@ body {
     // VARIABLES BODY
 
   --link: #385A94;
+  --link-under-title: #3c5177;
   --color-nav: #385A94;
   --fill:#385A94;
   --fill2:#E9E1F6;
   --fill-nav-bar:#385A94;
   --fill-darkmode: #385A94;
+  --background-header:#ffffffc4;
   --background-body: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   --background:#fefefe;
   --background-button:#fefefea6;
   --background-color: #F7DAF3;
   --background-card-profil: rgba(255, 255, 255, 0.267);
   --background-container: rgba(255,255,255,0.4);
-  --background-content: none;
-  --box-shadow-darkmode: inset 3px 3px 5px #c3c3c3, inset -1px -1px 5px #fdfdfd;
+  --background-content: #ffffff52;
+  --box-shadow-darkmode: inset 3px 3px 5px #c3c3c3, inset -1px -1px 5px #fdfdfdab;
   --box-shadow-btn-darkmode: 3px 3px 4px #d7d7d7, -1px -1px 4px #e9e9e9;
   --box-shadow: 0 15px 35px rgba(0,0,0,0.05);
   --box-shadow2: 0 15px 35px rgba(0,0,0,0.1);
   --box-shadow3: 0 10px 10px rgba(0,0,0,0.1);
   --border: 1px solid #F7DAF3;
+  --background-card: #ffffff52;
 }
 
 .dark {
@@ -58,6 +61,7 @@ body {
     // VARIABLES DARK MODE
 
   --background-body: linear-gradient(to top, #0B4473 0%, #0A263D 100%);
+  --background-header:#091a2ca4;
   --link: #fefefe;
   --color-nav: #091a2c;
   --background: #fefefe;
@@ -95,7 +99,8 @@ section {
   max-height: 600px;
   background: var(--background-container);
   box-shadow: var(--box-shadow);
-  border-radius: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -131,7 +136,7 @@ section {
   .container {
     width: calc(100% - 10vw);
     flex-direction: column;
-    padding: 20px;
+    padding: 0px;
     max-height: 3000px;
     margin: 0px 0 50px 0;
     .content {
@@ -156,21 +161,19 @@ section {
     position: relative;
     right: 0px;
     left: 0px;
+    padding: 5px 15px 5px 15px;
   }
 
   header {
     flex-direction: column;
     width: 100%;
-    top: -72px;
-    right: 0;
-    left: 0;
-
     .nav__ul {
       margin-left: 0px;
+      padding: 5px;
     }
 
   .header__titre-principale {
-    margin-bottom: 20px;
+    margin: 20px 0px;
     justify-content: center;
     align-items: center;
     text-align: center;

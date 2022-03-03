@@ -1,22 +1,41 @@
 .header {
   position: absolute;
-  top: -40px;
-  right: 20px;
-  left: 20px;
-  padding: 20px 50px;
+  top: -43px;
+  right: 0;
+  left: 0;
+  padding: 5px 50px 5px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--background-container);
+  background: var(--background-header);
   box-shadow: var(--box-shadow);
-  border-radius: 20px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255,255,255,0.25);
-  border-top: 1px solid rgba(255,255,255,0.5);
-  border-left: 1px solid rgba(255,255,255,0.5);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
   .header__titre-principale {
     display: flex;
+    flex-direction: row ;
     align-items: baseline;
+    .circle {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      margin-left: 14px;
+      cursor: pointer;
+    }
+    .red {
+      background-color: #FF5D5A
+    }
+    .yellow {
+      background-color: #FABF2A
+    }
+    .green {
+      background-color: #23C73C
+    }
     h1 {
       font-size: 1.6rem;
       margin: 0 12px 0 0;

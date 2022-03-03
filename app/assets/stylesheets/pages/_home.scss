@@ -3,13 +3,16 @@
   max-width: 700px;
   box-shadow: var(--box-shadow2);
   background: var(--background-content);
-  border-radius: 20px;
+  border-radius: 15px;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255,255,255,0.25);
   border-top: 1px solid rgba(255,255,255,0.5);
   border-left: 1px solid rgba(255,255,255,0.5);
   padding: 40px;
   padding-left: 110px;
+  .color-text-home {
+    color: #80a1d9;
+  }
   h2 {
     font-size: 2.5rem;
   }
@@ -26,11 +29,11 @@
     font-size: 1.2em;
     font-weight: 500;
     text-decoration: none;
-    box-shadow: inset 2px 2px 6px #bababa,
+    box-shadow: inset 2px 2px 6px #bababaa1,
                 inset -2px -2px 2px #ffffff;
   }
   a:hover {
-    box-shadow: inset 5px 5px 6px #bababa,
+    box-shadow: inset 5px 5px 6px #bababaa1,
                 inset -2px -2px 2px #ffffff;
   }
 }
