@@ -1,7 +1,7 @@
 # inside config/routes.rb
 Rails.application.routes.draw do
   get "pages/home"
-  get "pages/profile"
+  get "pages/profil"
   get "pages/competences"
   get "pages/portfolio"
   get "pages/contact"
